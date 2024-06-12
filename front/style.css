@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  background-color: #94151131;
+  padding: 15px 2%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.info-header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-icons {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.logout {
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.content {
+  width: 80%;
+}
+
+.titulo-secao, .tabelaRegistros, .sidebar-mobile {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 30px 10px 0 10px;
+}
+
+.titulo-secao h2 {
+  font-size: 19px;
+}
+
+.titulo-secao p {
+  font-size: 14px;
+}
+
+.tabelaRegistros h3 {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.table-header input {
+  width: 200px;
+  height: 36px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.bootstrap-style-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.bootstrap-style-table th, .bootstrap-style-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  width: 25%;
+}
+.bootstrap-style-table th {
+  color: #000;
+}
+.bootstrap-style-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.alignItensColumn {
+  text-align: center;
+}
+
+.item-menu-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-mobile {
+    display: none;
+  }
+
+  .content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+/* Estilo para o menu */
+.menu {
+  background-color: purple; 
+  padding: 20px; 
+}
+
+.menu ul {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.menu ul li {
+  font-size: 24px; 
+  color: white; 
+}
+
+.menu {
+  background-color: #340215; 
+  padding: 20px;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.menu ul {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+  align-items: center; 
+}
+
+.menu ul li {
+  font-size: 20px; 
+  color: white; 
+  margin-right: 10px; 
+}
+
+.menu ul li:last-child {
+  margin-right: 0; 
+}
+
+.row {
+  display: flex;
+}
+
+.chart-container {
+  flex: 1; 
+  margin: 0 10px; 
+}

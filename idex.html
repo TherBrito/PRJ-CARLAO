@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Projeto Monitoramento - Fatec Taquaritinga</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><i class="fa-solid fa-user"></i></li>
+        <li>Ester Feitosa Brito</li>
+        <li><i class="fa-solid fa-mug-saucer"></i> Análise em desenvolvimento de sistemas</li>
+      </ul>
+    </nav>
+    
+    <section class="main">
+      <div class="content">
+        <div class="titulo-secao">
+          <h2>Tabela de Monitoramento</h2>
+          <br />
+          <hr />
+          <br />
+        </div>
+        <div class="tabelaRegistros">
+          <div class="table-header">
+            <input type="text" placeholder="Pesquisar..." id="inputPesquisa" />
+          </div>
+          <table class="bootstrap-style-table" id="tabelaMonitoramento">
+            <thead>
+              <th class="alignItensColumn">*</th>
+              <th class="alignItensColumn">Temperatura</th>
+              <th class="alignItensColumn">Umidade</th>
+              <th class="alignItensColumn">Dispositivo</th>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/js/all.min.js"></script>
+  </body>
+</html>
